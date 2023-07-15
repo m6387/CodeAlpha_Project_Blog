@@ -1,0 +1,56 @@
+body {
+    padding-top: 80px;
+  }
+  header {
+  padding: 100px 0;
+  text-align: center;
+}
+
+
+header h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  
+}
+  #contact {
+  padding: 100px 0;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 50px;
+}
+
+footer {
+  padding: 15px 0;
+}
+
+@keyframes slide-left {
+0% {
+  transform: translateX(-100%);
+}
+100% {
+  transform: translateX(0);
+}
+}
+
+.animate-left-to-right {
+animation: slide-left 1s ease-in-out;
+}
+
+@keyframes move {
+0% {
+  transform: translateX(0);
+}
+70% {
+  transform: translateX(1000px);
+}
+100% {
+  transform: translateX(0);
+}
+}
+
+.moving-text {
+animation: move 10s linear infinite;
+color:  darkgreen;
+}
